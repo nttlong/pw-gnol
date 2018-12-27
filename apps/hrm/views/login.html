@@ -5,6 +5,9 @@
     <title>Title</title>
 </head>
 <body>
-
+    <form action="" method="post">
+        <input type="hidden" name="csrfmiddlewaretoken" value="${csrf_token.__str__()}"/>
+        <input type="submit" value="test">
+    </form>
 </body>
 </html>
