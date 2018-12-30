@@ -1,9 +1,9 @@
 from setuptools import setup
-
+import xdj
 setup (
     name='xdj',
-    version='0.0.0.0',
-    packages=['xdj', 'xdj.JSON', 'xdj.page', 'xdj.controllers'],
+    version=xdj.get_version(),
+    packages=['xdj', 'xdj.JSON', 'xdj.page', 'xdj.controllers','xdj.models'],
     url='',
     license='',
     author='nttlong',
